@@ -70,15 +70,21 @@ const Navbar = () => {
                 </div>
               </div>
             </div>
+            <Link to="/career" className="text-gray-300 hover:text-[#00ff9d] font-medium transition-colors">
+              Careers
+            </Link>
             <Link to="/contact" className="text-gray-300 hover:text-[#00ff9d] font-medium transition-colors">
               Contact
             </Link>
-            <Link
-              to="/contact"
+            <a
+              // to="/contact"
+              href="https://wa.me/9328698605?text=Hello%20Team,%0A%0AI%20am%20keen%20to%20explore%20how%20your%20cybersecurity%20solutions%20can%20enhance%20our%20security%20posture.%0AI%20would%20like%20to%20schedule%20a%20consultation%20to%20discuss%20our%20requirements%20and%20understand%20your%20offerings%20in%20detail.%0A%0APlease%20share%20the%20available%20time%20slots%20at%20your%20earliest%20convenience." // Replace with your meeting scheduling link
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-gradient-to-r from-[#00ff9d] to-[#00c8ff] text-black font-bold py-2 px-4 rounded-md hover:shadow-lg hover:shadow-[#00ff9d]/20 transition-all"
             >
               Get Protected
-            </Link>
+            </a>
           </div>
 
           {/* Mobile Navigation Toggle */}

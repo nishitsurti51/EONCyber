@@ -29,12 +29,15 @@ const Hero = () => {
               team ensures 24/7 monitoring, incident response, and proactive threat management.
             </p>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-              <Link
-                to="/contact"
+              <a
+                // to="/contact"
+                href="https://wa.me/9328698605?text=Hello%20Team,%0A%0AI%20am%20keen%20to%20explore%20how%20your%20cybersecurity%20solutions%20can%20enhance%20our%20security%20posture.%0AI%20would%20like%20to%20schedule%20a%20consultation%20to%20discuss%20our%20requirements%20and%20understand%20your%20offerings%20in%20detail.%0A%0APlease%20share%20the%20available%20time%20slots%20at%20your%20earliest%20convenience." // Replace with your meeting scheduling link
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-gradient-to-r from-[#00ff9d] to-[#00c8ff] text-black font-bold py-3 px-6 rounded-lg hover:shadow-lg hover:shadow-[#00ff9d]/20 transition-all text-center"
               >
                 Get Protected Now
-              </Link>
+              </a>
               <Link
                 to="/services"
                 className="bg-transparent border border-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:border-[#00ff9d] hover:text-[#00ff9d] transition-all flex items-center justify-center"
@@ -58,11 +61,11 @@ const Hero = () => {
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 bg-[#151c26] p-6 rounded-xl border border-gray-800">
           <div className="text-center">
-            <div className="text-3xl font-bold text-[#00ff9d] mb-2">1000+</div>
+            <div className="text-3xl font-bold text-[#00ff9d] mb-2">5+</div>
             <div className="text-gray-400">Protected Clients</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-[#00ff9d] mb-2">99.9%</div>
+            <div className="text-3xl font-bold text-[#00ff9d] mb-2">97.9%</div>
             <div className="text-gray-400">Uptime</div>
           </div>
           <div className="text-center">
@@ -70,7 +73,7 @@ const Hero = () => {
             <div className="text-gray-400">Monitoring</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-[#00ff9d] mb-2">100%</div>
+            <div className="text-3xl font-bold text-[#00ff9d] mb-2">99.9%</div>
             <div className="text-gray-400">Satisfaction</div>
           </div>
         </div>

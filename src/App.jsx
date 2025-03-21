@@ -2,7 +2,9 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Home from "./pages/Home"
 import About from "./pages/About"
+import Careers from "./pages/Careers"
 import Contact from "./pages/Contact"
+import ServicesSection from "./components/ServicesSection"
 import ServiceDetail from "./pages/ServiceDetail"
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
@@ -21,6 +23,8 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/services" element={<ServicesSection />} />
+            <Route path="/career" element={<Careers />} />
             <Route path="/services/:serviceId" element={<ServiceDetail />} />
           </Routes>
         </main>

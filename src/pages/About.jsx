@@ -154,7 +154,7 @@ const About = () => {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-[#151c26] rounded-xl border border-gray-800 overflow-hidden group">
+            {/* <div className="bg-[#151c26] rounded-xl border border-gray-800 overflow-hidden group">
               <div className="relative">
                 <img
                   src="/jaymin.png?height=300&width=300"
@@ -170,9 +170,9 @@ const About = () => {
                   Former Tech Expert with 2+ years of experience in cybersecurity leadership and strategy.
                 </p>
               </div>
-            </div>
+            </div> */}
 
-            <div className="bg-[#151c26] rounded-xl border border-gray-800 overflow-hidden group">
+            {/* <div className="bg-[#151c26] rounded-xl border border-gray-800 overflow-hidden group">
               <div className="relative">
                 <img
                   src="/prakash.png?height=300&width=300"
@@ -188,9 +188,9 @@ const About = () => {
                   Security researcher and architect specializing in threat detection and response.
                 </p>
               </div>
-            </div>
+            </div> */}
 
-            <div className="bg-[#151c26] rounded-xl border border-gray-800 overflow-hidden group">
+            {/* <div className="bg-[#151c26] rounded-xl border border-gray-800 overflow-hidden group">
               <div className="relative">
                 <img
                   src="/avatar-3.svg?height=300&width=300"
@@ -206,7 +206,7 @@ const About = () => {
                   Expert in building and managing 24/7 security operations centers for enterprises.
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div className="text-center mt-12">
@@ -235,14 +235,16 @@ const About = () => {
                 infrastructure from cyber threats.
               </p>
               <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-                <Link
-                  to="/contact"
+                <a
+                href="https://wa.me/9328698605?text=Hello%20Team,%0A%0AI%20am%20keen%20to%20explore%20how%20your%20cybersecurity%20solutions%20can%20enhance%20our%20security%20posture.%0AI%20would%20like%20to%20schedule%20a%20consultation%20to%20discuss%20our%20requirements%20and%20understand%20your%20offerings%20in%20detail.%0A%0APlease%20share%20the%20available%20time%20slots%20at%20your%20earliest%20convenience." // Replace with your meeting scheduling link
+                target="_blank"
+                rel="noopener noreferrer"
                   className="bg-gradient-to-r from-[#00ff9d] to-[#00c8ff] text-black font-bold py-3 px-8 rounded-lg hover:shadow-lg hover:shadow-[#00ff9d]/20 transition-all text-center"
                 >
                   Get Started Today
-                </Link>
+                </a>
                 <Link
-                  to="/"
+                  to="/services"
                   className="bg-transparent border border-gray-700 text-white font-bold py-3 px-8 rounded-lg hover:border-[#00ff9d] hover:text-[#00ff9d] transition-all text-center"
                 >
                   Explore Our Services
